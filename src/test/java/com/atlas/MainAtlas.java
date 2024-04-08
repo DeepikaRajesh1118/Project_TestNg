@@ -169,8 +169,13 @@ public class MainAtlas extends BaseClassAtlas {
 		 a.moveToElement(pd.getTransport()).perform();
 		 
 		 a.moveToElement(pd.getTransport()).click().perform();
+		
 		 
-		 
+	}
+	public static void drop() {
+		PojoDrop pd=new PojoDrop();
+		 clickFunction(pd.getDropdownmain());
+		 System.out.println("Actions to performed");
 	}
 	
 	@AfterClass
