@@ -172,6 +172,7 @@ public class MainAtlas extends BaseClassAtlas {
 		
 		 
 	}
+	//git purpose am creating
 	public static void drop() {
 		PojoDrop pd=new PojoDrop();
 		 clickFunction(pd.getDropdownmain());
